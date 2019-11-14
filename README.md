@@ -1,7 +1,7 @@
 # RuleVisualization - released application versions 
 ------------------------------------------------
 ### Content
-Each released version of the application (each release) is composed of:
+Each released version of the application (each [release](https://github.com/ruleLearn/RuleVisualization-release/releases)) is composed of:
 - `server fat jar`, compiled from source files of [https://github.com/ruleLearn/RuleVisualization-server](https://github.com/ruleLearn/RuleVisualization-server) project,
 - `demo data sets`,
 - `client code` (HTML + JS + CSS), compiled from source files of [https://github.com/ruleLearn/RuleVisualization-client](https://github.com/ruleLearn/RuleVisualization-client) project,
