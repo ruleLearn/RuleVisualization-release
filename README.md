@@ -1,5 +1,14 @@
 # RuleVisualization - released application versions 
 ------------------------------------------------
+
+### What's new
+- `version 1.1.1`:
+  - modified data - RuleML file of embeded `windsor` data set changed to version containing also characteristics of decision rules, car data set added to drop list of embeded data sets, client application rebuild from sources after GUI update (see [RuleVisualization-client commit message](https://github.com/ruleLearn/RuleVisualization-client/commit/d748e3dbf33dc5998626cf4f12b0731ff5e333ab) for more details)
+- `version 1.1.0`:
+  - modified server application - added car data set, fixed handling of values of confirmation measure L (positive infinity is serialized as max double value), employed ruleLearn library in version 0.14.3 (allowing confirmation measure L to have value greater than 1), embeded user guide replaced  with PDF file linking to up-to-date user documentation available on-line, small corrections and style change of that user guide, client application left unchanged
+- `version 1.0.0`:
+  - original version of the application supplied by M.Sc. student Mateusz Lewandowski, employing ruleLearn library in version 0.14.2 and containing embeded user guide (PDF)
+
 ### Content
 Each released version of the application (each [release](https://github.com/ruleLearn/RuleVisualization-release/releases)) is composed of:
 - `server fat jar`, compiled from source files of [https://github.com/ruleLearn/RuleVisualization-server](https://github.com/ruleLearn/RuleVisualization-server) project,
